@@ -1,0 +1,32 @@
+.header a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0 1rem;
+    transition: all 0.3s ease-in-out;
+}
+.header a:hover{
+    color:purple;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 3px;
+    padding-bottom: 5px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #cfcfcf;
+    border-radius: 0 0 40px 40px;
+    height: 4.5rem;
+}
+.header h2 {
+    background-color: #ffffff;
+    padding: 0.4rem .5rem;
+    border-radius: 100%;
+    color: purple;
+    font-size: 2rem;
+}
